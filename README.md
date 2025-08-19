@@ -1,47 +1,8 @@
-# ▲ / next-forge
-
-**Production-grade Turborepo template for Next.js apps.**
-
-<div>
-  <img src="https://img.shields.io/npm/dy/next-forge" alt="" />
-  <img src="https://img.shields.io/npm/v/next-forge" alt="" />
-  <img src="https://img.shields.io/github/license/vercel/next-forge" alt="" />
-</div>
-
-## Overview
-
-[next-forge](https://github.com/vercel/next-forge) is a [Next.js](https://nextjs.org/) project boilerplate for modern web application. It is designed to be a comprehensive starting point for new apps, providing a solid, opinionated foundation with a minimal amount of configuration.
-
-## Getting Started
-
-Clone the repo using:
-
-```sh
-npx next-forge@latest init
-```
-
-Then read the [docs](https://www.next-forge.com/docs) for more information.
-
-## Contributors
-
-<a href="https://github.com/vercel/next-forge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vercel/next-forge" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
-# 🎉 Event Manager (Mini Assignment)
-
-This project is built using the **Next-Forge Turbo template** (Turborepo + pnpm) with **Next.js (App Router)**, **TypeScript**, and **TailwindCSS**.  
-It implements a simple **Event Manager** with the ability to add, search, and delete events — all client-side.
-
----
-
 ## 🚀 How to Run
 
 1. Clone the repo and navigate into the project folder:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Radhikachandugade/my-event-manager.git
    cd my-event-manager
 Install dependencies:
 
@@ -56,7 +17,7 @@ Option 2: From root using Turborepo filter
 
 pnpm turbo run dev --filter=events-app
 Open your browser at:
-👉 http://localhost:3000/events
+👉 http://localhost:3000
 
 📍 Path of the Page
 Main page for Event Manager is available at:
