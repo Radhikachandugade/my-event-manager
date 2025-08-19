@@ -1,7 +1,7 @@
 ## 🚀 How to Run
 
 1. Clone the repo and navigate into the project folder:
-   ```bash
+   ```
    git clone https://github.com/Radhikachandugade/my-event-manager.git
    cd my-event-manager
 Install dependencies:
@@ -10,9 +10,10 @@ pnpm install
 Run the development server:
 
 Option 1: Run only the events-app
-
-cd apps/events-app
-pnpm dev
+  ```
+  cd apps/events-app
+  pnpm dev
+  
 Option 2: From root using Turborepo filter
 
 pnpm turbo run dev --filter=events-app
