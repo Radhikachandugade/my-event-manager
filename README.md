@@ -1,59 +1,81 @@
-## 🚀 How to Run
+# 📑 Event Manager – Assignment  
 
-1. Clone the repo and navigate into the project folder:
-   ```
+## 🚀 How to Run  
+
+### Quick Run  
+```bash
+pnpm install
+pnpm dev
+```
+
+👉 Open in browser: [http://localhost:3000](http://localhost:3000)  
+
+---
+
+### Detailed Steps  
+
+1. **Clone the repo and navigate into the project folder**  
+   ```bash
    git clone https://github.com/Radhikachandugade/my-event-manager.git
    cd my-event-manager
-Install dependencies:
+   ```
 
-pnpm install
-Run the development server:
+2. **Install dependencies**  
+   ```bash
+   pnpm install
+   ```
 
-Option 1: Run only the events-app
-  ```
-  cd apps/events-app
-  pnpm dev
-  
-Option 2: From root using Turborepo filter
+3. **Run the development server**  
 
-pnpm turbo run dev --filter=events-app
-Open your browser at:
-👉 http://localhost:3000
+   **Option 1: Run only the events-app**  
+   ```bash
+   cd apps/events-app
+   pnpm dev
+   ```
 
-📍 Path of the Page
-Main page for Event Manager is available at:
+   **Option 2: Run from root using Turborepo filter**  
+   ```bash
+   pnpm turbo run dev --filter=events-app
+   ```
 
-/events
-📝 Features
-Add a new event (Event Name + Date).
+4. **Open in browser**  
+   👉 [http://localhost:3000](http://localhost:3000)  
 
-Prevents adding past dates.
+   📍 **Path of the Page:**  
+   ```
+   /events
+   ```
 
-List of events with Delete button.
+---
 
-Search bar to filter events by name.
+## 📝 Features  
 
-LocalStorage persistence so events stay after refresh.
+- ➕ Add a new event (Event Name + Date)  
+- 🚫 Prevents adding past dates  
+- 📋 List of events with Delete button  
+- 🔍 Search bar to filter events by name  
+- 💾 LocalStorage persistence so events stay after refresh  
+- 📱 Clean, mobile-friendly UI with TailwindCSS  
 
-Clean, mobile-friendly UI with TailwindCSS.
+---
 
-📌 Notes & Assumptions
-No backend/database → data is stored in browser memory and localStorage.
+## 📌 Notes & Assumptions  
 
-Date Validation: Past dates cannot be added (both UI restriction + JS validation).
+- No backend/database → Data is stored in **browser memory + localStorage**  
+- Date Validation: Past dates cannot be added (UI restriction + JS validation)  
+- State Management with **useState**  
+- Built as part of a **monorepo** (Turborepo)  
+- Tested with **pnpm package manager**  
 
-State Management: Implemented with useState.
+---
 
-Built as part of a monorepo .
+## 🎨 Tech Stack  
 
-Tested with pnpm package manager.
+- ⚡ Next.js (App Router)  
+- 🟦 TypeScript  
+- 🎨 TailwindCSS  
+- 📦 pnpm  
 
-🎨 Tech Stack
-Next.js (App Router)
+---
 
-TypeScript
-
-TailwindCSS
-
-pnpm
-
+✨ **GitHub Repo Link:** [my-event-manager](https://github.com/Radhikachandugade/my-event-manager)  
